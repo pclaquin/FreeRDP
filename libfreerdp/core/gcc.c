@@ -144,7 +144,7 @@ BYTE h221_sc_key[4] = "McDn";
  * @param settings rdp settings
  */
 
-#BOOL gcc_read_conference_create_request(wStream* s, rdpMcs* mcs)
+BOOL gcc_read_conference_create_request(wStream* s, rdpMcs* mcs)
 {
 	UINT16 length;
 	BYTE choice;
